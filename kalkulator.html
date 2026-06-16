@@ -1,0 +1,57 @@
+<!--Ari Apriansyah Putra - 202432035-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kalkulator Nilai</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+
+<nav>
+    <div class="brand">Ari Apriansyah Putra</div>
+
+    <ul>
+        <li><a href="index.html">Tentang Saya</a></li>
+        <li><a href="kalkulator.html" class="active">Kalkulator Nilai</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Kalkulator Nilai Akhir</h2>
+
+        <p>Tugas 30% | UTS 30% | UAS 40%</p>
+
+        <label>Nilai Tugas</label>
+        <input type="number" id="tugas" placeholder="Contoh: 80">
+
+        <label>Nilai UTS</label>
+        <input type="number" id="uts" placeholder="Contoh: 85">
+
+        <label>Nilai UAS</label>
+        <input type="number" id="uas" placeholder="Contoh: 90">
+
+        <button id="btnHitung">Hitung</button>
+
+        <div id="error" class="error"></div>
+
+        <div id="hasil" class="hasil">
+            <h3>Nilai Akhir : <span id="nilaiAkhir"></span></h3>
+            <h3>Grade : <span id="grade"></span></h3>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="kalkulator.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+/*Ari Apriansyah Putra - 202432035*/
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+
+    transition:0.3s;
+}
+
+input:focus{
+    outline:none;
+    border:2px solid blue;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.02);
+}
+
+.error{
+    margin-top:15px;
+    color:red;
+}
+
+.hasil{
+    display:none;
+    margin-top:20px;
+}
+
+.grade-A{
+    background:#22c55e;
+    color:white;
+    padding:5px 10px;
+}
+
+.grade-B{
+    background:#3b82f6;
+    color:white;
+    padding:5px 10px;
+}
+
+.grade-C{
+    background:#eab308;
+    color:white;
+    padding:5px 10px;
+}
+
+.grade-D{
+    background:#f97316;
+    color:white;
+    padding:5px 10px;
+}
+
+.grade-E{
+    background:#ef4444;
+    color:white;
+    padding:5px 10px;
+}

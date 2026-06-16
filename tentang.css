@@ -1,0 +1,23 @@
+/*Ari Apriansyah Putra - 202432035*/
+.hero{
+    text-align:center;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+
+.skills{
+    margin-top:15px;
+}
+
+.tag{
+    background:#2563eb;
+    color:white;
+    padding:8px 12px;
+    border-radius:5px;
+    margin:5px;
+    display:inline-block;
+}
